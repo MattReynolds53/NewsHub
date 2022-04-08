@@ -1,13 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./images/NewsLogo.png";
+import "./App.css";
+
+const styles = {
+  logo: {
+    borderRadius: "100%",
+  }
+};
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} style={styles.logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to NewsHub, your new home for all news across the political spectrum.
         </p>
         <a
           className="App-link"
