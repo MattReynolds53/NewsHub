@@ -1,4 +1,4 @@
-import logo from "./images/NewsLogo.png";
+import logo from "./images/homepage/NewsLogo.png";
 import "./App.css";
 
 const styles = {
