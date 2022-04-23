@@ -1,10 +1,9 @@
 import React from "react";
-import project1 from '../images/MyTravelAdvisor.png';
-import project2 from '../images/albumSearchPageResults.png';
-import project3 from '../images/TechBlog2.png';
-import project4 from '../images/WeatherDashboardScreenshot.png';
-import project5 from '../images/NoteTaker.png';
-import project6 from '../images/CodingTeamGenerator.png';
+import AP from '../images/middle/APLogo.jpg';
+import Reuters from '../images/middle/Reuters.png';
+import AP from '../images/middle/APLogo.jpg';
+import AP from '../images/middle/APLogo.jpg';
+
 // import { projects } from "../data";
 
 const styles = {
@@ -32,14 +31,14 @@ export default function Projects() {
   <> 
   <div style={styles.cardDisplay}>
     <div class="card" style={styles.cardWidth}>
-      <img src={project1} class="card-img-top" alt="Project 1"></img>
+      <img src={AP} class="card-img-top" alt="Project 1"></img>
       <div class="card-body">
-        <h5 class="card-title">My Travel Advisor</h5>
-        <p class="card-text">Travel application allowing users to search for cities and plan future vacations. Users can build their own profile with a travel journal outlining dream vacations and savings goals for each.</p>
+        <h5 class="card-title">Associated Press</h5>
+        <p class="card-text">Associated Press Hot Topics</p>
       </div>
       <div class="card-body">
         <p>
-        <a href="https://github.com/MattReynolds53/WishTravelP2" class="card-link">GitHub Repository</a>
+        <a href="https://github.com/MattReynolds53/WishTravelP2" class="card-link">Russia and Ukraine War</a>
         </p>
         <p>
         <a href="https://desolate-bastion-60870.herokuapp.com/login" class="card-link">Deployed Application</a>
@@ -48,17 +47,23 @@ export default function Projects() {
     </div>
   
     <div class="card" style={styles.cardWidth}>
-      <img src={project2} class="card-img-top" alt="Project 1"></img>
+      <img src={Reuters} class="card-img-top" alt="Project 1"></img>
       <div class="card-body">
-        <h5 class="card-title">Music Search Engine</h5>
-        <p class="card-text">Music search engine with which users can search for their favorite artists, songs, and albums. Users can listen to songs, view lyrics, and view their favorite artists' upcoming concerts and events.</p>
+        <h5 class="card-title">Reuters</h5>
+        <p class="card-text"></p>
       </div>
       <div class="card-body">
         <p>
-        <a href="https://github.com/MattReynolds53/ProjectforHackers" class="card-link">GitHub Repository</a>
+        <a href="https://www.reuters.com/" class="card-link">Reuters Homepage</a>
         </p>
         <p>
-        <a href="https://colinmchale.github.io/ProjectforHackers/" class="card-link">Deployed Application</a>
+        <a href="https://www.reuters.com/world/" class="card-link">World News</a>
+        </p>
+        <p>
+        <a href="https://www.reuters.com/business/" class="card-link">Business News</a>
+        </p>
+        <p>
+        <a href="https://www.reuters.com/technology/" class="card-link">Technology News</a>
         </p>
       </div>
     </div>
