@@ -4,6 +4,10 @@ import "./App.css";
 const styles = {
   logo: {
     borderRadius: "100%",
+  },
+  buttons: {
+    display: "flex",
+    justifyContent: "space-around",
   }
 };
 
@@ -13,16 +17,20 @@ function App() {
       <header className="App-header">
         <img src={logo} style={styles.logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to NewsHub, your new home for all news across the political spectrum.
+          Welcome to NewsHub, your new home for all news across the political
+          spectrum.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div style={styles.buttons}>
+          <button type="button" class="btn btn-outline-primary">
+            Liberal
+          </button>
+          <button type="button" class="btn btn-outline-light">
+            Middle
+          </button>
+          <button type="button" class="btn btn-outline-danger">
+            Conservative
+          </button>
+        </div>
       </header>
     </div>
   );
