@@ -1,10 +1,14 @@
-import React form "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+import Liberal from "./components/Liberal";
+import Middle from "./components/Middle";
+import Conservative from "./components/Conservative";
+
 import logo from "./images/homepage/NewsLogo.png";
 import "./App.css";
 
