@@ -1,8 +1,6 @@
 import React from "react";
 import AP from '../images/middle/APLogo.jpg';
 import Reuters from '../images/middle/Reuters.png';
-import AP from '../images/middle/APLogo.jpg';
-import AP from '../images/middle/APLogo.jpg';
 
 // import { projects } from "../data";
 
@@ -68,7 +66,7 @@ export default function Projects() {
       </div>
     </div>
     
-    <div class="card" style={styles.cardWidth}>
+    {/* <div class="card" style={styles.cardWidth}>
       <img src={project3} class="card-img-top" alt="Project 1"></img>
       <div class="card-body">
         <h5 class="card-title">Tech Blog</h5>
@@ -131,8 +129,8 @@ export default function Projects() {
         <p>
         <a href="https://drive.google.com/file/d/1u5wmaeXG3Il7auqGa40GPCfnBTDTqquw/view" class="card-link">View Code Deployment Demo</a>
         </p>
-      </div>
-    </div>
+      </div> */}
+    {/* </div> */}
   </div>
   </>   
     
